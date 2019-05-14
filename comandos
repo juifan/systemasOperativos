@@ -1,0 +1,21 @@
+Cambiar palabras
+sed ‘s/palabra1/palabra2/’ texto
+
+Cambia las palabras en el archivo
+sed  -i ‘s/palabra1/palabra2/’  texto
+
+El 3 indica cada  tres palabras donde cambia la palabra
+sed ‘s/palabra1/palabra2/3’ texto
+
+Mide el timepo de ejecucion de un programa
+time $program
+
+Comprimir archivos
+tar  cvf dir.tar.gz directorio 
+
+Descomprimir archivos
+tar xvf di.tar.gz
+
+Muesta cuanto pesa la carpeta
+du -sh directorio/
+
